@@ -1,5 +1,6 @@
 #Taking example array to be sorted
 example_arr = [7, 3, 10, 22, 21, 9, 12, 5]
+
 #defining Insortion Sort function
 def insertion_sort_dec(example_arr):
     
@@ -15,5 +16,6 @@ def insertion_sort_dec(example_arr):
         example_arr[j+1] = current_element
 
     return example_arr
-arr_sorted = insertion_sort_dec(example_arr)
-print("Array sorted in decreasing order:", arr_sorted)
+
+arr_sorted_dec = insertion_sort_dec(example_arr)
+print("Array sorted in decreasing order:", arr_sorted_dec)
